@@ -1,0 +1,2 @@
+when using the terminal, we are working in a single directory.For us to explore the file and the directory, we use ls as our command.
+ls lists all the contents of the directory that we are in
