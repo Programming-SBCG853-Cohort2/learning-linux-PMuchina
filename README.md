@@ -31,7 +31,7 @@ output compared to default
 ## ls -1/
 
 For every unix command, we have a manual that helps us understand how all the options function. To access this, 
-we use the man command.
+we use the man command. To navigate through the man, use space to scroll down, b to go back and q to quit.
 ## man ls
 ## man cd
 ## man man *(even the man command has a manual)*
