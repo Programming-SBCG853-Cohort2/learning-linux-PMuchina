@@ -43,3 +43,8 @@ when navigating through the terminal, the tab assists you to autocomplete and sa
 when we want to move files to a new directory, we use the **mv** command from the source to the destination.
 The mv command can also be used to rename files from the old to new name.
 ## mv
+
+When removing directories, we use the **rmdir** command but for files we use the **rm** command. However this may be a dangerous 
+move a you may delete files you may never recover. You can however add -i after the command line to make it safer for use. This
+will give you an option of weather you truly want to discard the file.
+## rm
