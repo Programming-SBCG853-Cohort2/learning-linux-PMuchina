@@ -2,7 +2,7 @@
 learning-linux-PMuchina created by GitHub Classroom
 
 
-when using the terminal, we are working in a single directory.For us to explore the file and the directory, 
+When using the terminal, we are working in a single directory.For us to explore the file and the directory, 
 we use **ls** as our command. **ls** lists all the contents of the directory that we are in.
 ## ls
 
@@ -24,4 +24,8 @@ of dots separated by a forward slash
 to quickly navigate from the root directory to the learning unix, use the
 ## ~ @ cd /
 
-to make the ls more useful, you can use the two
+to make the ls more useful, you can use dots to list directories above you. Adding a letter l after ls gives you a longer 
+output compared to default
+## ls .. 
+## ls ../..
+## ls -1/
