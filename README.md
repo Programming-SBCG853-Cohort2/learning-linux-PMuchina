@@ -1,5 +1,7 @@
 # learning-linux-PMuchina
 learning-linux-PMuchina created by GitHub Classroom
+
+
 when using the terminal, we are working in a single directory.For us to explore the file and the directory, 
 we use ls as our command.
 ls
