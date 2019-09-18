@@ -35,3 +35,6 @@ we use the man command. To navigate through the man, use space to scroll down, b
 ## man ls
 ## man cd
 ## man man *(even the man command has a manual)*
+
+When we have an empty directory that we might want to remove, we use the remove directory command 
+## rmdir
