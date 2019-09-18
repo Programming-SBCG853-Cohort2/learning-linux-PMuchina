@@ -20,3 +20,6 @@ when navigating one level upwards a directory, we use two dots .. when navigatin
 of dots separated by a forward slash
 ## cd ..
 ## cd ../..
+
+to quickly navigate from the root directory to the learning unix, use the
+## ~ @ cd /
