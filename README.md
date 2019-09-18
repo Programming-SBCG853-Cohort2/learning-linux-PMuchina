@@ -48,3 +48,16 @@ When removing directories, we use the **rmdir** command but for files we use the
 move a you may delete files you may never recover. You can however add -i after the command line to make it safer for use. This
 will give you an option of weather you truly want to discard the file.
 ## rm
+
+Copying files is much similar to moving files in that you must have a source and a destination. For this we use the command **cp**. This command can also be used to copy entire directories with the addition of command options.
+## cp
+
+When viewing files, we can use the **less** and **echo** commands.The less command only allows you to view files but you cannot edit them while echo allows you to put some text on file and veiw it. **cat** can also be used to view files but unlike less, you hhave no control of what you veiw. Cat can be used to combine multiple files or copy an exsiting file.
+
+When counting characters, words and lines in a file, we use the word count command **wc**. By default it gives you all the characters, words and lines in a file but you can be more specific by give line command options for instance wc -1.
+## wc
+
+Editors can be incoporated in the unix system. Nano is an example of a lightweigh editor that can be used to edit text. The command is placed before the opening lines.
+
+
+
