@@ -38,3 +38,8 @@ we use the man command. To navigate through the man, use space to scroll down, b
 
 When we have an empty directory that we might want to remove, we use the remove directory command 
 ## rmdir
+
+when navigating through the terminal, the tab assists you to autocomplete and saves you from alot of typing
+when we want to move files to a new directory, we use the **mv** command from the source to the destination.
+The mv command can also be used to rename files from the old to new name.
+## mv
