@@ -11,7 +11,7 @@ prints the whole working directory.
 ## pwd 
 
 To make a new directory, we use the make directory command.
-## mkdir command
+## mkdir 
 
 when we want to switch directories we use the change directory command.
-## cd command
+## cd 
