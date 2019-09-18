@@ -23,3 +23,5 @@ of dots separated by a forward slash
 
 to quickly navigate from the root directory to the learning unix, use the
 ## ~ @ cd /
+
+to make the ls more useful, you can use the two
