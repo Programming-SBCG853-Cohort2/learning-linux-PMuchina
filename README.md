@@ -15,3 +15,8 @@ To make a new directory, we use the make directory command.
 
 when we want to switch directories we use the change directory command.
 ## cd 
+
+when navigating one level upwards a directory, we use two dots .. when navigating two levels upwards, we use two sets
+of dots separated by a forward slash
+## cd ..
+## cd ../..
