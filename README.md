@@ -29,3 +29,9 @@ output compared to default
 ## ls .. 
 ## ls ../..
 ## ls -1/
+
+For every unix command, we have a manual that helps us understand how all the options function. To access this, 
+we use the man command.
+## man ls
+## man cd
+## man man *(even the man command has a manual)*
