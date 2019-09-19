@@ -52,12 +52,12 @@ will give you an option of weather you truly want to discard the file.
 Copying files is much similar to moving files in that you must have a source and a destination. For this we use the command **cp**. This command can also be used to copy entire directories with the addition of command options.
 ## cp
 
-When viewing files, we can use the **less** and **echo** commands.The less command only allows you to view files but you cannot edit them while echo allows you to put some text on file and veiw it. **cat** can also be used to view files but unlike less, you hhave no control of what you veiw. Cat can be used to combine multiple files or copy an exsiting file.
+When viewing files, we can use the **less** and **echo** commands.The less command only allows you to view files but you cannot edit them while echo allows you to put some text on file and veiw it. Echo command also displays contents known as the variable environment. Environment variables contain user specific or system wide values that reflect simple information such as the username or list of useful lcations. **cat** can also be used to view files but unlike less, you hhave no control of what you veiw. Cat can be used to combine multiple files or copy an exsiting file.
 
 When counting characters, words and lines in a file, we use the word count command **wc**. By default it gives you all the characters, words and lines in a file but you can be more specific by give line command options for instance wc -1.
 ## wc
 
 Editors can be incoporated in the unix system. Nano is an example of a lightweigh editor that can be used to edit text. The command is placed before the opening lines.
 
-
+To find lines that match a certain pattern in a file, we use the **grep** command. Grep comman can be used together with other command options to make it more useful. For instance use *-i* to ignore case when matching. *-w* to only match whole words and *-v* to show lines that do not match. 
 
