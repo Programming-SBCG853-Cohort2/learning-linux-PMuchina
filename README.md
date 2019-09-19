@@ -60,4 +60,6 @@ When counting characters, words and lines in a file, we use the word count comma
 Editors can be incoporated in the unix system. Nano is an example of a lightweigh editor that can be used to edit text. The command is placed before the opening lines.
 
 To find lines that match a certain pattern in a file, we use the **grep** command. Grep comman can be used together with other command options to make it more useful. For instance use *-i* to ignore case when matching. *-w* to only match whole words and *-v* to show lines that do not match. 
+## grep
 
+To combine several unix commands, we can use the **pipe** which is often represented by the **|** character. However, it is essential to test each step as you build it. 
