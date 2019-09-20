@@ -2,7 +2,7 @@
 learning-linux-PMuchina created by GitHub Classroom
 
 
-When using the terminal, we are working in a single directory.For us to explore the file and the directory, 
+When using the terminal, we may be working in a single directory.For us to explore the file and the directory, 
 we use **ls** as our command. **ls** lists all the contents of the directory that we are in.
 ## ls
 
@@ -13,7 +13,7 @@ Due to the many directories that may be present in the unix command,using the **
 prints the whole working directory.
 ## pwd 
 
-To make a new directory, we use the make directory command. To make another directory in a new directory, command options can be use for instance *-P*.
+To make a new directory, we use the make directory command. To make another directory in a new directory, command options can be used for instance *-P*.
 ## mkdir 
 
 when we want to switch directories we use the change directory command. To change directory into the root directory, web use the change directory command with */*
@@ -44,7 +44,7 @@ we use the man command. To navigate through the man, use space to scroll down, b
 When we have an empty directory that we might want to remove, we use the remove directory command 
 ## rmdir
 
-When creating empty files, we can use the touch command followed by the name of the text file.
+When creating empty files, we can use the touch command followed by the name of the text file name.
 ## touch
 
 when navigating through the terminal, the tab assists you to autocomplete and saves you from alot of typing
@@ -60,14 +60,14 @@ will give you an option of weather you truly want to discard the file.
 Copying files is much similar to moving files in that you must have a source and a destination. For this we use the command **cp**. This command can also be used to copy entire directories with the addition of command options.
 ## cp
 
-When viewing files, we can use the **less** and **echo** commands.The less command only allows you to view files but you cannot edit them while echo allows you to put some text on file and veiw it. Echo command also displays contents known as the variable environment. Environment variables contain user specific or system wide values that reflect simple information such as the username or list of useful lcations. **cat** can also be used to view files but unlike less, you hhave no control of what you veiw. Cat can be used to combine multiple files or copy an exsiting file.
+When viewing files, we can use the **less** and **echo** commands.The less command only allows you to view files but you cannot edit them while echo allows you to put some text on file and veiw it. Echo command also displays contents known as the variable environment. Environment variables contain user specific or system wide values that reflect simple information such as the username or list of useful locations. **cat** can also be used to view files but unlike less, you have no control of what you veiw. Cat can be used to combine multiple files or copy an exsiting file.
 
 When counting characters, words and lines in a file, we use the word count command **wc**. By default it gives you all the characters, words and lines in a file but you can be more specific by give line command options for instance wc -1.
 ## wc
 
 Editors can be incoporated in the unix system. Nano is an example of a lightweigh editor that can be used to edit text. The command is placed before the file name. i.e. *nano file name.txt*
 
-To find lines that match a certain pattern in a file, we use the **grep** command. Grep comman can be used together with other command options to make it more useful. For instance use *-i* to ignore case when matching. *-w* to only match whole words and *-v* to show lines that do not match. 
+To find lines that match a certain pattern in a file, we use the **grep** command. Grep command can be used together with other command options to make it more useful. For instance use *-i* to ignore case when matching. *-w* to only match whole words and *-v* to show lines that do not match. 
 ## grep
 
 To combine several unix commands, we can use the **pipe** which is often represented by the **|** character. However, it is essential to test each step as you build it. 
