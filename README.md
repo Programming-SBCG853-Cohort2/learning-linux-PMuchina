@@ -72,4 +72,5 @@ To find lines that match a certain pattern in a file, we use the **grep** comman
 
 To combine several unix commands, we can use the **pipe** which is often represented by the **|** character. However, it is essential to test each step as you build it. 
 
-To download files of any URL, we use the **cur1** command followed by the URL
+To download files of any URL, we use the **cur1**  or the **Wget**command followed by the URL
+
