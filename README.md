@@ -6,29 +6,34 @@ When using the terminal, we are working in a single directory.For us to explore 
 we use **ls** as our command. **ls** lists all the contents of the directory that we are in.
 ## ls
 
+To veiw all the directories as they may appear in a graphical file browser, use the **tree** command
+## tree
+
 Due to the many directories that may be present in the unix command,using the **pwd** command helps you to know your location
 prints the whole working directory.
 ## pwd 
 
-To make a new directory, we use the make directory command.
+To make a new directory, we use the make directory command. To make another directory in a new directory, command options can be use for instance *-P*.
 ## mkdir 
 
-when we want to switch directories we use the change directory command.
+when we want to switch directories we use the change directory command. To change directory into the root directory, web use the change directory command with */*
 ## cd 
+## cd /
 
 when navigating one level upwards a directory, we use two dots .. when navigating two levels upwards, we use two sets
 of dots separated by a forward slash
 ## cd ..
 ## cd ../..
 
-to quickly navigate from the root directory to the learning unix, use the
-## ~ @ cd /
+to quickly navigate from the root directory to any directory, use the
+## ~ $ cd /
 
-to make the ls more useful, you can use dots to list directories above you. Adding a letter l after ls gives you a longer 
-output compared to default
+to make the ls more useful, you can use dots to list directories above you. Adding a letter i after ls gives you a longer 
+output compared to default. Adding *-a* shows hidden files.
 ## ls .. 
 ## ls ../..
-## ls -1/
+## ls -i/
+## ls -a
 
 For every unix command, we have a manual that helps us understand how all the options function. To access this, 
 we use the man command. To navigate through the man, use space to scroll down, b to go back and q to quit.
@@ -39,7 +44,8 @@ we use the man command. To navigate through the man, use space to scroll down, b
 When we have an empty directory that we might want to remove, we use the remove directory command 
 ## rmdir
 
-
+When creating empty files, we can use the touch command followed by the name of the text file.
+## touch
 
 when navigating through the terminal, the tab assists you to autocomplete and saves you from alot of typing
 when we want to move files to a new directory, we use the **mv** command from the source to the destination.
@@ -59,9 +65,11 @@ When viewing files, we can use the **less** and **echo** commands.The less comma
 When counting characters, words and lines in a file, we use the word count command **wc**. By default it gives you all the characters, words and lines in a file but you can be more specific by give line command options for instance wc -1.
 ## wc
 
-Editors can be incoporated in the unix system. Nano is an example of a lightweigh editor that can be used to edit text. The command is placed before the opening lines.
+Editors can be incoporated in the unix system. Nano is an example of a lightweigh editor that can be used to edit text. The command is placed before the file name. i.e. *nano file name.txt*
 
 To find lines that match a certain pattern in a file, we use the **grep** command. Grep comman can be used together with other command options to make it more useful. For instance use *-i* to ignore case when matching. *-w* to only match whole words and *-v* to show lines that do not match. 
 ## grep
 
 To combine several unix commands, we can use the **pipe** which is often represented by the **|** character. However, it is essential to test each step as you build it. 
+
+To download files of any URL, we use the **cur1** command followed by the URL
