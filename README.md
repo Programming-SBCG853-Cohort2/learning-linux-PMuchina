@@ -74,3 +74,4 @@ To combine several unix commands, we can use the **pipe** which is often represe
 
 To download files of any URL, we use the **cur1**  or the **Wget**command followed by the URL
 
+By using the **tail** or **head** command you can veiw a number of lines in a file. For instance to veiw last ten lines you can use *tail -10 filename*
